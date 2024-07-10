@@ -42,7 +42,7 @@ mongoose
     'mongodb+srv://rishuassigment01:HWJYKriN6rtdaO1V@cluster0.hfofqni.mongodb.net/mern?retryWrites=true&w=majority&appName=Cluster0'
   )
   .then(() => {
-    app.listen(process.env.PORT || 5001);
+    app.listen(5001);
   })
   .catch(err => {
     console.log(err);
